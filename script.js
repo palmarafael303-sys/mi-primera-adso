@@ -1,6 +1,3 @@
-const boton = document.getElementById("boton");
-const mensaje = document.getElementById("mensaje");
-
-boton.addEventListener("click", () => {
-    mensaje.textContent = "¡Mi primera aplicación funciona!";
-});
+function saludar() {
+    alert("Holaa estoy aprendiendo a programar en javascript");
+}
